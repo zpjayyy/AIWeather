@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AIWeather</string>
+    <string name="tip_network_is_not_available">网络不可用，请查看设置</string>
 </resources>

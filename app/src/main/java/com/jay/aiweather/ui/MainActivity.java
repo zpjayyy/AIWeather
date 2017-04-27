@@ -1,9 +1,11 @@
-package com.jay.aiweather;
+package com.jay.aiweather.ui;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.jay.aiweather.R;
+import com.jay.aiweather.ui.base.ToolbarActivity;
+
+public class MainActivity extends ToolbarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
