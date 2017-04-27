@@ -1,12 +1,13 @@
 package com.jay.aiweather;
 
 import android.app.ActivityManager;
-import android.app.Application;
 import android.content.Context;
 
 import com.jay.aiweather.api.AiWeatherRetrofit;
 import com.jay.aiweather.tool.Toasts;
 import com.squareup.leakcanary.LeakCanary;
+
+import org.litepal.LitePalApplication;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  * Created by jay on 17/4/27.
  */
 
-public class App extends Application{
+public class App extends LitePalApplication{
 
     @Override
     public void onCreate() {

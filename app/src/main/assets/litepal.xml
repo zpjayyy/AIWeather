@@ -1,0 +1,13 @@
+<litepal>
+
+    <dbname value="ai_weather"/>
+
+    <vsersion value="1"/>
+
+    <list>
+        <mapping class="com.jay.aiweather.db.Province"/>
+        <mapping class="com.jay.aiweather.db.City"/>
+        <mapping class="com.jay.aiweather.db.County"/>
+    </list>
+
+</litepal>
